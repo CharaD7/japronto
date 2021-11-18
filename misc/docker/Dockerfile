@@ -1,4 +1,4 @@
-FROM python:3.6.0-slim
+FROM python:3.9.8-slim
 
 RUN pip3 install japronto
 ENV PYTHONUNBUFFERED=1
